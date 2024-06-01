@@ -1,0 +1,105 @@
+
+ 
+ #wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    perspective: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container h1 {
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    background-color: black;
+    color: aliceblue;
+    padding: 5rem;
+}
+
+.text {
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+    color: black;
+}
+
+.bg {
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.bg1 {
+    background-image: url('Downhill-mountain-biking_Adventure-Sports.jpg');
+}
+
+.bg2 {
+    background-image: url('paragliding-159642.jpg');
+}
+
+.bg3 {
+    background-image: url('o-ADVENTURE-facebook.jpg');
+}
+
+.Secheading {
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.decs {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.5rem 2.5rem;
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 5rem;
+    }
+
+    .Secheading {
+        font-size: 3rem;
+        padding: 0 2rem;
+    }
+
+    .text {
+        font-size: 1rem;
+        padding: 0 2rem;
+        margin: 2rem 0;
+    }
+
+    .decs {
+        font-size: 2rem;
+    }
+}
