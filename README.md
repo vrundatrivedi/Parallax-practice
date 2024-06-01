@@ -11,8 +11,7 @@ Welcome to the Parallax-practice project! This project showcases a website built
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Live Demo](#live-demo)
 
 ## Introduction
 
@@ -30,6 +29,9 @@ Parallax-practice is a web project designed to provide information about excitin
 - **HTML**: The standard markup language for creating web pages.
 - **CSS**: Stylesheet language used to describe the presentation of the document.
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+
+Live Demo
+Check out the live demo of the project [here](https://665b28ec37abf659d4ca1c5c--scintillating-monstera-cfdc39.netlify.app/).
 
 ## Installation
 
